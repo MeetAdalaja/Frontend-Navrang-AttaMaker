@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+body {
+  font-family: Nunito, sans-serif;
+}
+.about-us {
+  background-color: #7b8b88;
+  height: 350px;
+  position: relative;
+  display: flex;
+}
+.about-start {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  padding: 7rem 40px;
+  gap: 1rem;
+}
+.about-start > h1 {
+  font-size: 40px;
+  color: white;
+}
+.about-start > p {
+  font-size: 20px;
+  color: #dfe0eb;
+}
+.about-image {
+  height: 350px;
+}
+.about-image > img {
+  height: 350px;
+}
+.about-img-banner {
+  position: relative;
+  z-index: 3;
+}
+.about-img {
+  position: absolute;
+  right: 0;
+  z-index: 2;
+}
+
+.about-description {
+  /* background-color: aqua; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-description-inner {
+  /* background-color: aquamarine; */
+  width: 90%;
+  height: 80%;
+  padding: 3rem;
+  margin-top: 6rem;
+  display: flex;
+}
+
+.about-description-inner-column-left {
+  width: 45%;
+  /* background-color: rebeccapurple; */
+  height: 100%;
+  position: relative;
+}
+
+.satisfied-customers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 270px;
+  bottom: auto;
+  right: 255px;
+  width: 200px;
+  height: 140px;
+  border-radius: 4px;
+  background-image: linear-gradient(270deg, #feb701, #ffe600);
+}
+
+.satisfied-customers > div:first-child {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.1em;
+}
+
+.satisfied-customers > div {
+  color: #6868caf0;
+}
+.about-description-inner-column-left > img {
+  object-fit: cover;
+  max-width: 100%;
+  display: inline-block;
+}
+#about-description-inner-column-left-img1 {
+  width: 400px;
+  height: 240px;
+  border-radius: 4px;
+}
+#about-description-inner-column-left-img2 {
+  border-radius: 4px;
+  position: absolute;
+  top: 110px;
+  bottom: auto;
+  left: auto;
+  right: 0%;
+  width: 225px;
+  height: 300px;
+}
+
+.about-description-inner-column-right {
+  height: 80%;
+  width: 45%;
+  padding: 1.5rem 3rem;
+  /* background-color: rgb(74, 133, 186); */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 60px;
+  /* justify-content: center; */
+}
+
+.about-description-inner-column-right > h1 {
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 1.2em;
+  letter-spacing: -0.84px;
+  margin-bottom: 20px;
+}
+
+.about-description-inner-column-right > p {
+  font-size: 18px;
+  line-height: 30px;
+  display: flex;
+  justify-content: center;
+  margin: 4px 0;
+}
+.about-description-inner-column-right > p > i {
+  font-size: 25px;
+  margin-right: 10px;
+  padding-top: 4px;
+}
+
+.navrang-speciality {
+  height: 90vh;
+  width: 90vw;
+  margin: auto;
+  background-repeat: no-repeat;
+  background-image: url("../assets/Navrang_Speciality.png");
+  border-radius: 9px;
+  background-size: contain;
+  background-position: center;
+  box-shadow: 0 0 40px 4px #7b8b88;
+}
+
+.navarang-qualities-inner{
+  overflow: hidden;
+  margin: 6rem 0 0 0;
+  
+}
+
+.quality {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  grid-column-gap: 40px;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+.quality-content {
+  display: flex;
+  grid-row-gap: 5px;
+  flex-direction: column;
+  max-width: 430px;
+  padding-right: 30px;
+}
+.quality-content > h2 {
+  color: #101828;
+  text-align: left;
+  letter-spacing: -0.05em;
+  text-transform: none;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+
+.quality-content > p {
+  color: #7987a1;
+  text-align: left;
+  letter-spacing: -0.05em;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.5em;
+}
+.quality-image {
+  background-image: url('../assets/bg_lines.png');
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  
+}

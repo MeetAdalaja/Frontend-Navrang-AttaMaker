@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.contact {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(40, 41, 49);
+  position: relative;
+}
+
+.inFormBackground {
+  position: relative;
+}
+
+#first-circle {
+  width: 20rem;
+  height: 20rem;
+  position: absolute;
+  border-radius: 50%;
+  left: 250px;
+  top: 80px;
+  background: linear-gradient(#ff0060, #c302b5);
+}
+#second-circle {
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  border-radius: 50%;
+  right: 300px;
+  bottom:150px;
+  background: linear-gradient(100deg, #7a7d80fc, #1877f2);
+}
+.inLoginForm form {
+  width: 50rem;
+  height: 23rem;
+  position: absolute;
+  padding: 40px 35px;
+  border-radius: 10px;
+  backdrop-filter: blur(5px);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 40px rgba(8, 7, 16, 0.6);
+  border: 2px solid rgba(214, 196, 30, 0.329);
+  background-color: rgba(255, 255, 255, 0.13);
+}
+.horizontalGroup {
+  display: flex;
+  gap: 2rem;
+}
+.horizontalGroup-inner {
+  width: 47%;
+}
+
+form * {
+  border: none;
+  outline: none;
+  color: #ffffff;
+  letter-spacing: 0.5px;
+  font-family: "Poppins", sans-serif;
+}
+.title {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 12px;
+  text-align: center;
+}
+.inputGroup label {
+  display: block;
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.inputGroup input {
+  width: 97%;
+  height: 50px;
+  display: block;
+  padding: 0 10px;
+  margin-top: 8px;
+  font-size: 14px;
+  font-weight: 300;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.07);
+}
+::placeholder {
+  color: #e5e5e5;
+}
+.submitForm {
+  width: 90%;
+  z-index: 1;
+  margin-top: 50px;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  background: #7b8b88;
+}
+.submitForm::before {
+  content: "";
+  top: 0%;
+  left: -100%;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  border-radius: 5px;
+  position: absolute;
+  transition: left 0.4s, color 0.4s;
+  background-color: white;
+}
+.submitForm:hover {
+  color: rgb(62, 57, 57);
+}
+.submitForm:hover::before {
+  left: 0%;
+}
