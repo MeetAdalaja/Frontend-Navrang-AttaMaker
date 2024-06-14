@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,6 +10,7 @@
     <link rel="stylesheet" href="/home/footer.css">
     <title>Navrang - Atta Maker Wholeseller</title>
 </head>
+
 <body>
     <header>
         <nav class="navbar">
@@ -43,6 +45,62 @@
             </div>
         </nav>
     </header>
+
+
+    <section class="complaint">
+        <div class="inComplaintBackground">
+            <div class="circle" id="complaint-first-circle"></div>
+            <div class="circle" id="complaint-second-circle"></div>
+            <div class="inComplaintForm">
+                <form onsubmit="return false">
+                    <div class="title">
+                        <h3>Raise a Complaint...!</h3>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="complaint-name">Name</label>
+                        <input type="text" placeholder="Enter Name" id="complaint-name" />
+                    </div>
+                    <div class="horizontalGroup">
+                        <div class="inputGroup horizontalGroup-inner">
+                            <label for="complaint-phone">Phone</label>
+                            <input type="tel" placeholder="Enter Phone Number" id="complaint-phone" />
+                        </div>
+                        <div class="inputGroup horizontalGroup-inner">
+                            <label for="complaint-email">Email</label>
+                            <input type="email" placeholder="Enter Email" id="complaint-email" />
+                        </div>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="complaint-address">Address</label>
+                        <input type="text" placeholder="Enter Address" id="complaint-address" />
+                    </div>
+                    <div class="horizontalGroup">
+                        <div class="inputGroup horizontalGroup-inner">
+                            <label for="complaint-city">City</label>
+                            <input type="text" placeholder="Enter City" id="complaint-city" />
+                        </div>
+                        <div class="inputGroup horizontalGroup-inner">
+                            <label for="complaint-state">State</label>
+                            <input type="text" placeholder="Enter State" id="complaint-state" />
+                        </div>
+                    </div>
+                    <div class="inputGroup">
+                        <label for="complaint-bill_date">Bill Date</label>
+                        <input type="date" id="complaint-bill_date" />
+                    </div>
+                    <div class="inputGroup">
+                        <label for="complaint-product_model">Product Model</label>
+                        <input type="text" placeholder="Enter Product Model" id="complaint-product_model" />
+                    </div>
+                    <div class="inputGroup">
+                        <label for="complaint-query">Query</label>
+                        <input type="text" placeholder="Enter Query" id="complaint-query" />
+                    </div>
+                    <button class="submitComplaintForm">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
 
 
 
@@ -179,8 +237,8 @@
             </div>
         </div>
     </footer>
-    
-    
+
+
     <script src="https://kit.fontawesome.com/abe26bc7c6.js" crossorigin="anonymous"></script>
 </body>
 
